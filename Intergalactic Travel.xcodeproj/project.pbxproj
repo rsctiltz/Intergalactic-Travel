@@ -21,6 +21,7 @@
 		D0059814192270B90060EB18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00597F6192270B90060EB18 /* UIKit.framework */; };
 		D005981C192270B90060EB18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D005981A192270B90060EB18 /* InfoPlist.strings */; };
 		D005981E192270B90060EB18 /* Intergalactic_TravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D005981D192270B90060EB18 /* Intergalactic_TravelTests.m */; };
+		D005982B192284940060EB18 /* VacationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D005982A192284940060EB18 /* VacationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D0059819192270B90060EB18 /* Intergalactic TravelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Intergalactic TravelTests-Info.plist"; sourceTree = "<group>"; };
 		D005981B192270B90060EB18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D005981D192270B90060EB18 /* Intergalactic_TravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Intergalactic_TravelTests.m; sourceTree = "<group>"; };
+		D0059829192284940060EB18 /* VacationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VacationViewController.h; sourceTree = "<group>"; };
+		D005982A192284940060EB18 /* VacationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D0059804192270B90060EB18 /* Main.storyboard */,
 				D0059807192270B90060EB18 /* ViewController.h */,
 				D0059808192270B90060EB18 /* ViewController.m */,
+				D0059829192284940060EB18 /* VacationViewController.h */,
+				D005982A192284940060EB18 /* VacationViewController.m */,
 				D005980A192270B90060EB18 /* Images.xcassets */,
 				D00597F9192270B90060EB18 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				D0059809192270B90060EB18 /* ViewController.m in Sources */,
 				D0059803192270B90060EB18 /* AppDelegate.m in Sources */,
 				D00597FF192270B90060EB18 /* main.m in Sources */,
+				D005982B192284940060EB18 /* VacationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
